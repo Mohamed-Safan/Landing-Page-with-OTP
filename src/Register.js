@@ -13,7 +13,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 
 const Register = () => {
-  const navigate = useNavigate(); // Initialize useNavigate hook for navigation
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [otp, setOtp] = useState("");
@@ -100,7 +100,7 @@ const Register = () => {
         console.log(res);
         setUser(res.user);
         setLoading(false);
-        navigate('/home'); // Navigate to HomePage after successful OTP verification using useNavigate
+        navigate('/home'); 
       })
       .catch((err) => {
         console.log(err);
@@ -120,7 +120,7 @@ const Register = () => {
           const user = userCredential.user;
           console.log(user);
           setLoading(false);
-          onSignup(); // Proceed with phone number verification
+          onSignup();
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -138,7 +138,7 @@ const Register = () => {
         <div id="recaptcha-container"></div>
         {user ? (
           <h2 className="text-center text-white font-medium text-2xl">
-            👍Login Success
+            Login Success
           </h2>
         ) : (
           <div className="w-80 flex flex-col gap-4 rounded-lg p-4">
