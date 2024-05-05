@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Register from "./Register.js";
-import HomePage from "./HomePage.js"; // Import the HomePage component
+import HomePage from "./HomePage.js"; 
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar';
 
