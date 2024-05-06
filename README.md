@@ -1,39 +1,47 @@
-## Installation
+# Installation
 
-Clone the Project:
+# 1. Clone the Project:
 
-  # git clone <project-repo-url>
+  ## git clone <project-repo-url>
 
 
-## Install Dependencies:
+
+## 2. Install Dependencies:
 
   # npm install
 
+
   
-## This command installs all the necessary dependencies required for the project.
+### This command installs all the necessary dependencies required for the project.
 
 
-## Firebase Setup:
-## Create a Firebase project.
-## Navigate to the necessary files in your Firebase project.
+#### 3. Firebase Setup:
+#### Create a Firebase project.
+#### Navigate to the necessary files in your Firebase project.
 
-## Inside the project folder, in the src folder, locate the file firebase.config.js.
+### Inside the project folder, in the src folder, locate the file firebase.config.js.
 
-## Copy and paste the code snippets found in the Firebase project into firebase.config.js.
+### Copy and paste the code snippets found in the Firebase project into firebase.config.js.
 
 
-## Firebase Authentication:
+
+## 4. Firebase Authentication:
 ## In the Firebase Authentication section of your Firebase project, enable Email/Password method and Phone Auth method.
 
 ## After completing the above steps:
 
-## Navigate to Project Root Directory:
+
+
+
+## 6. Navigate to Project Root Directory:
 
 
 # cd <project-directory>
 
 
-## Start the Project:
+
+
+## 7. Start the Project:
 
 # npm start
 
