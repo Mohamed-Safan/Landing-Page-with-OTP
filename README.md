@@ -15,8 +15,10 @@
 ### This command installs all the necessary dependencies required for the project.
 
 
-#### 3. Firebase Setup:
+### 3. Firebase Setup:
+
 #### Create a Firebase project.
+
 #### Navigate to the necessary files in your Firebase project.
 
 ### Inside the project folder, in the src folder, locate the file firebase.config.js.
@@ -26,6 +28,7 @@
 
 
 ## 4. Firebase Authentication:
+
 ## In the Firebase Authentication section of your Firebase project, enable Email/Password method and Phone Auth method.
 
 ## After completing the above steps:
@@ -34,7 +37,6 @@
 
 
 ## 6. Navigate to Project Root Directory:
-
 
 # cd <project-directory>
 
